@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="columnFlex">
+        <div class="inputContainer">
+          <input
+            id="city-input"
+            class="inputField"
+            type="search"
+            placeholder="Search for a city..."
+          />
+        </div>
+        <div class="cityContainer">
+          <div id="city" class="city">Weather data will appear here</div>
+          <div id="date" class="date"></div>
+        </div>
+        <div id="temperature" class="tempContainer"></div>
+        <div class="weatherContainer">
+          <div id="weather" class="weather"></div>
+          <div id="low-high" class="lowHigh"></div>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
